@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="./hospital.css">
+     <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        
+        </script>
+        
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-1">
+        <div class="box1">
+            <p>apex<span style="color:aquamarine;">clinic</span></p>
+            </div>
+
+        <div class="box2">
+              <p><span style="color:aquamarine;"><b>Emergency Help</b></span><br>
+              888-234-924</p>
+        </div>
+        <div class="box3">   <i class="fa fa-map-marker" aria-hidden="true" style="font-size:30px; color:aquamarine;"></i>
+             <p>PO Box 16122 Collins Street West<br>
+             Victoria 8007 Australia</p>
+        </div>
+        <div class="box4">  <i class="fa fa-clock-o" aria-hidden="true" style="font-size:30px; color:aquamarine;"></i>
+            <p>Monday-Saturday - 8:00 - 18:00<br>
+            Sunday - 8:00 - 14:00</p>
+        </div>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+        <!-- <a class="navbar-brand" href="#">VetoGroup</a> -->
+      <a href="#home" class="active">HOME</a>
+      <a href="#pages">PAGES</a>
+      <a href="#department">DEPARTMENT</a>
+      <a href="#contact">CONTACT</a>
+      <a href="#news">NEWS</a>
+      <a href="#element">ELEMENT</a>
+      <a href="#book and appointment">BOOK AN APPOINTMENT</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </a>
+    </div>
+            
+    <div id="grp2">
+
+      <div id="text-box">
+          <h4 class="txts">Genius Medics Specialty Healthcare</h4>
+
+
+          <p class="pags">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sunt unde<br>
+             repellat ab possimus voluptates aut distinctio,repellat ab possimus voluptates aut</p>
+
+          <button class="book">BOOK AN APPOINTMENT</button>
+      </div >
+  </div>
+
+  <div id="display">
+
+      <div id="box1">
+              <h3 class="txt">Maps, Directions & Locations</h3>
+              <p class="pag">Lorem, ipsum dolor sit amet consectetur adipisicing elit.Reprehenderit  sit amet consectetur adipisicing</p>
+              <button class="btn">Get Directions </button>
+      </div>
+
+      <div id="box2">
+          <h3 class="txt">Meet Our Clinicians</h3>
+          <p class="pag">Lorem, ipsum dolor sit amet consectetur adipisicing elit.Reprehenderit sit amet consectetur adipisicing </p>
+          <button class="btn">Find a Doctor </button>
+      </div>
+
+      <div id="box3">
+          <h3 class="txt">Book an Appointment</h3>
+          <p class="pag">Lorem, ipsum dolor sit amet consectetur adipisicing elit.Reprehenderit  sit amet consectetur adipisicing </p>
+          <button class="btn">Appointments </button>
+      </div>
+  </div>
+  </body>
+          </html>
